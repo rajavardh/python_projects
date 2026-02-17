@@ -1,1 +1,18 @@
+Withdrew $150. Remaining balance: $350
+Deposited $150. New balance: $350
+Transferred $150 to Bob
+Deposited $200. New balance: $550
+Account: 101 | Holder: Alice | Balance: $350
+Account: 102 | Holder: Bob | Balance: $550
 
+Alice's Transactions:
+{'type': 'Account Created', 'amount': 500, 'timestamp': '2026-02-17 06:31:54'}
+{'type': 'Withdrawal', 'amount': 150, 'timestamp': '2026-02-17 06:31:54'}
+{'type': 'Transfer to Bob', 'amount': 150, 'timestamp': '2026-02-17 06:31:54'}
+
+Bob's Transactions:
+{'type': 'Account Created', 'amount': 200, 'timestamp': '2026-02-17 06:31:54'}
+{'type': 'Deposit', 'amount': 150, 'timestamp': '2026-02-17 06:31:54'}
+{'type': 'Deposit', 'amount': 200, 'timestamp': '2026-02-17 06:31:54'}
+
+=== Code Execution Successful ===
